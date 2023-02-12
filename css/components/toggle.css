@@ -8,7 +8,7 @@
 .toggle-bar {
     visibility: hidden; 
     opacity: 0;
-    background-color: rgb(243, 0, 0);
+    background-color: #FA9E4D;
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -21,7 +21,7 @@
 }
 
 .toggle-bar-active { 
-    background-color: orangered;
+    background-color: #FA9E4D;
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -40,11 +40,13 @@
     top: 0;
     right: 0;
     padding: 2rem 5.5rem;
+
 }
 .close_menu .close-toggle {
     width: 8rem;
     height: 8rem;
     cursor: pointer;
+    color: #444;
 }
 
 .menu__nav {
