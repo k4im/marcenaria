@@ -1,0 +1,36 @@
+/* Animação da parte direita para esquerda */
+@keyframes animated {
+    0% {
+        opacity: 0;
+        transform: translateX(-150rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+/* Animação de entrada da parte esquerda para direita */
+@keyframes animated-left {
+    0% {
+        opacity: 0;
+        transform: translateX(150rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+/* Animação de load dos cards */
+@keyframes animated-load {
+    0%{
+        opacity: 0;
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+
+    }
+}

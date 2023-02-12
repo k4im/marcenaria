@@ -1,0 +1,43 @@
+.process {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.process__text-box__heading-primary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #444;
+    position: relative;
+}
+.process__text-box__heading-primary::before {
+    content: '';
+    position: absolute;
+    width: 10rem;
+    height: 1rem;
+    background-color: #FA9E4D;
+    margin-top: -1.5rem;
+    border-radius: 5px;
+}
+
+.process__paragraph {
+    width: 45rem;
+    font-size: 1.6rem;
+    margin-top: 1.2rem;
+}
+.process__text-box {
+    opacity: 0;
+    overflow: hidden;
+}
+.process-2 .process__text-box {
+    margin: 18rem 3rem;
+}
+.process__img-box {
+    opacity: 0;
+    overflow: hidden;
+}
+.process-2 .process__img-box {
+    order: 2;
+    flex: 0 1 45%;
+}

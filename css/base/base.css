@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* Definindo a font: 62.5% equivale a 10px, utilizar rem */
+    font-size: 62.5%; 
+    scroll-behavior: smooth;
+}
+::selection {
+    background-color: #FA9E4D;
+}
+body {
+    font-family: sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 15rem; */
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
