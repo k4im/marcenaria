@@ -7,6 +7,10 @@
 @import "layout/process.css";
 @import"components/cards.css";
 @import"components/contact.css";
+@import"components/whatsFixed.css";
+@import"components/detailBox.css";
+@import"layout/footer.css";
+
 @import"components/animated.css";
 @import"frames|media/media.css";
 @import"frames|media/keyframes.css";

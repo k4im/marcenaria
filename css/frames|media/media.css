@@ -160,6 +160,19 @@
         height: 55rem;
         width: 45rem;
     }
+    .footer__container {
+        margin-top: 45rem;
+    }
+    .whats__fixed {
+        display: block;
+    }
+    .heading__footer {
+        font-size: 1.4rem;
+    }
+    .container__box {
+        width: 80%;
+        height: 45rem;
+    }
 }
 
 @media screen and (min-width: 120em) {

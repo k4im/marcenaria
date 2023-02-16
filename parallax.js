@@ -8,6 +8,7 @@ let processTextBox = document.querySelector(".process__text-box");
 let processImgBox2 = document.querySelector(".process__img-box-2");
 let processTextBox2 = document.querySelector(".process__text-box-2");
 let cardbox = document.querySelectorAll('.card-box');
+
 //Setando valor incial do mouse
 let current = 0;
 //Setando valor inicial da janela
@@ -35,7 +36,6 @@ function animateHeroSection() {
     // Chamando a função de transform, passando o valor de transform sendo o current.
     transform(heroImg, `translateY(-${current}px)`)
     transform(heroText, `translateY(-${current}px)`)
-    console.log(target);
 
     //Requisitando a animação;
     requestAnimationFrame(animateHeroSection);
@@ -62,11 +62,10 @@ function animationTrigger2() {
         processImgBox2.classList.add("animated-left");
         processTextBox2.classList.add("animated");
     }
-    else if(target < 1000) {
+    else if(target < 750) {
         processImgBox2.classList.remove("animated-left");
         processTextBox2.classList.remove("animated");
     }
-    console.log(target);
     requestAnimationFrame(animationTrigger2);
 }
 

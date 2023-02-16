@@ -17,18 +17,12 @@ function closeMenu() {
     toggleBar.classList.add("toggle-bar");
 }
 //Evento para abrir o toggle menu
-hamburger.addEventListener("click", () => {
-    openMenu();
-});
+hamburger.addEventListener("click", openMenu);
 
 //Evento para fechar o toggle menu
-toggleClose.addEventListener("click", () => {
-    closeMenu();
-});
+toggleClose.addEventListener("click", closeMenu);
 
 //Evento em cada item para fechar quando clicado
 itemLink.forEach(item => {
-    item.addEventListener("click", () => {
-        closeMenu();
-    })
+    item.addEventListener("click", closeMenu)
 })
