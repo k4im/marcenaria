@@ -88,6 +88,10 @@
         height: 58rem;
         width: 88rem;
     }
+    .container__details {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
 }
 /* Media query 600px */
 @media screen and (max-width: 40.62em) {
@@ -116,7 +120,15 @@
         height: 55rem;
         width: 65rem;
     }
-
+    
+    .container__box {
+        width: 70%;
+        height: 55rem;
+    }
+    .container__details {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
 }
 
 /* Media até 425px */
@@ -169,9 +181,16 @@
     .heading__footer {
         font-size: 1.4rem;
     }
+    .container__details {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
     .container__box {
-        width: 80%;
-        height: 45rem;
+        width: 70%;
+        height: 55rem;
+    }
+    .container__icons .paragraph {
+        line-height: 1;
     }
 }
 
