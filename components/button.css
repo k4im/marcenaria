@@ -1,0 +1,55 @@
+/* Definição geral dos botões utilizando hiperlink */
+.button {
+    background-color: transparent;
+    border: none;
+    margin-top: 3rem;
+    border-bottom: 2px solid #FA9E4D;
+    color: #FA9E4D;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #444;
+}
+
+/* Definição do botão main utilizando hiperlink */
+.btn--main:link,
+.btn--main:visited {
+    background-color: #FA9E4D;
+    box-shadow: 0 1.6rem 2rem rgba(0,0,0, .15);
+    padding: 1.6rem 3rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.btn--main:hover {
+    box-shadow: 0 1.6rem 2rem rgba(0,0,0, .3);
+    transform: translateY(-5px);
+}
+
+.btn--main:active {
+    transform: translateY(0);
+    box-shadow: 0 1.6rem 2rem rgba(0,0,0, .15);
+}
+
+/* Definição do botão outline utilizando hiperlink */
+.btn--outline:link,
+.btn--outline:visited { 
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #FA9E4D;
+    border-bottom: 2px solid #FA9E4D;
+    transition: all .4s ease-in-out;
+}
+
+.btn--outline:hover {
+    box-shadow: 0 .2rem 2rem rgba(0,0,0, .1);
+}

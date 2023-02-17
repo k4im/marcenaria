@@ -1,0 +1,10 @@
+.whats__fixed {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    display: none;
+}
+.wpp__img {
+    width: 8rem;
+    height: 8rem;
+}
