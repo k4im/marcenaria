@@ -154,32 +154,40 @@
         height: 65rem;
     }
     .process__text-box__heading-primary {
-        font-size: 4rem;
+        font-size: 3.4rem;
         margin: 0;
-        padding: 0;
     }
-
+    .process .process__text-box {
+        padding: 2rem;
+    }
+    .process .process__paragraph {
+        width: 40rem;
+    }
+    
     .process-2 .process__text-box {
         margin: 0 0;
-        /* margin-top: -50rem; */
+        padding: 2rem;
     }
-
+    .container__list {
+        padding: 2.5rem;
+    }
     .cards {
         flex-direction: column;
         margin-bottom: 20rem;
     }
     .frame__container iframe {
         height: 55rem;
-        width: 45rem;
+        width: 38rem;
     }
     .footer__container {
         margin-top: 45rem;
+        overflow: hidden;
     }
     .whats__fixed {
         display: block;
     }
     .heading__footer {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .container__details {
         grid-template-columns: repeat(1, 1fr);
